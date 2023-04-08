@@ -15,7 +15,7 @@ st.header("지수 현황")
 
 
 ## 데이터가져오기  ### 인덱스데이터 정기적인 데이터 업데이트 30 분.
-data_path = "/home/sean/sean/data/"
+data_path = "./datas/"
 
 index_data = pd.read_pickle(f"{data_path}index_df.pickle")
 temp_df, df_normal = index_data

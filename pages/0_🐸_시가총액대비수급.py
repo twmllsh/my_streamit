@@ -9,7 +9,7 @@ st.set_page_config(
     page_title = "과거 추천데이터 분석",
     layout='wide',)
 
-data_path = '/home/sean/sean/data/'
+data_path = '../datas/'
 filename0 = data_path + "invest_tops_for_0day.pickle"
 filename4 = data_path + "invest_tops_for_4day.pickle"
 filename7 = data_path + "invest_tops_for_7day.pickle"

@@ -17,7 +17,7 @@ st.set_page_config(
 
 all_data = new_ms.Fnguide.get_ticker_by_fnguide(option = 'db')[2:]
 all_data.loc[:,'code'] = all_data['cd'].apply(lambda x :x[1:])
-dic  = pd.read_pickle("/home/sean/sean/data/temp_sended_dic.pkl")
+dic  = pd.read_pickle("../datas/temp_sended_dic.pkl")
 date = dic['date'].strftime("%Y-%m-%d")
 sended_codes_ls = dic['sended']
 current_price_df = new_ms.Sean_func.get_all_current_price()  ## 현재등락율 표시.
