@@ -36,7 +36,7 @@ st.set_page_config(
     page_title = "과거 추천데이터 분석",
     layout='wide',)
 
-data_path = "../datas/"
+data_path = "./datas/"
 try:
     check_df = pd.read_pickle(f"{data_path}recommended_df5.pickle")
 except:
